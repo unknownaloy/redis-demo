@@ -1,7 +1,7 @@
 import { PORT } from "config/env.ts";
 import express from "express";
 import { errorMiddleware } from "middlewares/error.middleware.ts";
-import restaurantRouter from "routes/restaurants.routes.ts";
+import restaurantRouter from "routes/restaurant.routes.ts";
 
 const app = express();
 
